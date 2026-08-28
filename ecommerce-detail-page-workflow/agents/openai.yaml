@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ecommerce Detail Page Workflow"
+  short_description: "Turn one product image into a detail page"
+  default_prompt: "Use $ecommerce-detail-page-workflow. After receiving the product image, ask only for the publishing platform. If product information is sufficient, generate the three-image asset pack immediately; otherwise research and deliver a detailed copy draft for confirmation before generating assets."
