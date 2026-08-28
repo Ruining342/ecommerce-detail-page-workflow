@@ -65,7 +65,7 @@ ecommerce-detail-page-workflow/
 └── tests/
 ```
 
-`dist/ecommerce-detail-page-workflow-lean-v3.2.skill` 是经过验证的 v3.2 打包文件。
+仓库内的 `ecommerce-detail-page-workflow/` 与本机通过测试的 v3.2 Skill 源码一致，可直接通过上面的仓库路径安装。
 
 ## 运行测试
 
@@ -81,7 +81,7 @@ python -m unittest discover -s ecommerce-detail-page-workflow/tests -v
 - Skill 源码不包含广告注入、第三方 API 端点、密钥收集或强制外部路由。
 - 仅在产品信息不足时，按工作流使用公开网页资料补充候选文案。
 - 产品源图是最高优先级依据；不得把无证据的尺寸、材质、认证、检测结果或隐藏结构伪装成产品事实。
-- 发布包 SHA-256：`65bae6aa8eea77c9dc84d535445d32f489ae337f0e9e286cb7e80f00e2761436`。
+- 发布前已通过 18 项 SOP 与无损拼接测试。
 
 ## 版本
 
